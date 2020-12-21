@@ -110,8 +110,10 @@ class FirstProblem:
             the number of missing games of each category 
 
         """
+        # Get the categories from the user input text
         categories = get_categories(self.user_input)
         answer: str = []
+        # Iterate over all categories
         for category in categories:
             standings = get_category_standings(category)
             highest_score = get_highest_score(standings, category.teams)
