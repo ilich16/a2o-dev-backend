@@ -14,14 +14,33 @@ Example: `curl http://localhost:8000/api/v1/problem-1/?input=Junior%0ABuenisimos
 
 ```javascript
 {
-    "result": [
-        "Buenisimos 2",
-        "EMPATE 0"
-    ]
-}
+  "result": [
+    "Buenisimos 2",
+    "EMPATE 0"
+  ]
 }
 ```
 
 ### GET /problem-2
 
+Returns an integer that describes the number of squares the queen can attack.
+
+Example: `curl http://localhost:8000/api/v1/problem-2/?input=5%203%0A4%203%0A5%205%0A4%202%0A2%203`
+
+```javascript
+{
+  "result": 10
+}
+```
+
 ### GET /problem-3
+
+Returns the maximum value of f(s) among all the substrings (s) of string t.
+
+Example: `curl http://localhost:8000/api/v1/problem-3/?input=abcabcddd`
+
+```javascript
+{
+  "result": 9
+}
+```
