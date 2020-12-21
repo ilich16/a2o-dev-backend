@@ -1,6 +1,6 @@
 # A2O Backend
 
-Project made in Python that contains the backend server for the React App.
+Project made in Django that contains the backend server for the React App.
 
 ## Setup
 
